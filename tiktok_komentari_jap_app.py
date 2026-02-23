@@ -14,16 +14,15 @@ SERVICE_ID = 9999  # TikTok Custom Comments na JAP-u
 
 # ✅ COMMENTS_SET_1 = PRVI BLOK koji si poslao
 COMMENTS_SET_1 = [
-    "If you’re serious about making real changes, Five Foundations of Wealth by Samuel Brooks is a must-read. trust me, it will CHANGE your life.",
-"If I could gift every confused version of myself one thing, it would be Five Foundations of Wealth by Samuel Brooks. no questions asked.",
-"It’s unreal how close I came to skipping Five Foundations of Wealth by Samuel Brooks. this isn’t just another book. it genuinely feels like it wasn’t written for everyone.",
-"If I could go back in time, I’d tell myself to read Five Foundations of Wealth by Samuel Brooks years ago. would’ve saved me so much wasted time.",
-"I didn’t realize how off track I was until I read Five Foundations of Wealth by Samuel Brooks. looking back, a lot of things make sense now.",
-"If you’re serious about making real changes, Five Foundations of Wealth by Samuel Brooks is a must-read. trust me, it will CHANGE your life.",
-"If I could gift every confused version of myself one thing, it would be Five Foundations of Wealth by Samuel Brooks. no questions asked.",
-"It’s unreal how close I came to skipping Five Foundations of Wealth by Samuel Brooks. this isn’t just another book. it genuinely feels like it wasn’t written for everyone.",
-"If I could go back in time, I’d tell myself to read Five Foundations of Wealth by Samuel Brooks years ago. would’ve saved me so much wasted time.",
-"I didn’t realize how off track I was until I read Five Foundations of Wealth by Samuel Brooks. looking back, a lot of things make sense now."
+   "If I could go back in time, I’d tell myself to read Money Beyond Horizons by Stephen Greenall years ago. Would’ve saved me so much wasted time.",
+"I didn’t realize how much I was missing until I read Money Beyond Horizons by Stephen Greenall. It completely changed my life.",
+"If you’re serious about making real changes Money Beyond Horizons by Stephen Greenall is a must-read, trust me it will CHANGE your life.",
+"Reading Money Beyond Horizons by Stephen Greenall was the biggest cannon event in my life—it completely rewrote how I see everything.",
+"I thought I had it all figured out, but Money Beyond Horizons by Stephen Greenall changed everything, trust me you NEED this book.",
+"I genuinely didn’t know how lost i was until i picked up Money Beyond Horizons by Stephen Greenall, nothing’s been the same since.",
+"If I could gift every confused version of myself one thing, it would be Money Beyond Horizons by Stephen Greenall, no questions asked.",
+"I didn’t expect one book to shift my entire mindset, but Money Beyond Horizons by Stephen Greenall did exactly that and more.",
+"Just a reminder to get and read Money Beyond Horizons by Stephen Greenall before it vanishes again, life-changing book...",
 ]
 # ✅ COMMENTS_SET_2 = DRUGI BLOK koji si poslao
 COMMENTS_SET_2 = [
@@ -338,6 +337,7 @@ import os
 if __name__ == "__main__":
     port = int(os.environ.get("PORT", 8080))  # Railway postavi PORT (kod tebe će biti 8880)
     app.run(host="0.0.0.0", port=port)
+
 
 
 
